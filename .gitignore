@@ -170,4 +170,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-page_progress.txt
+rubbish/page_progress.txt
