@@ -9,4 +9,7 @@ def index(request):
     return render(request, 'rango/index.html', context=context_dict)
 
 def about(request):
-    return HttpResponse("Welcome to the about page! Click <a href='/rango/'> HERE </a> to go to the index page.")
+
+    context_dict = {'boldmessage': 'This tutorial was put together by Calum.'}
+
+    return render(request, 'rango/about.html', context=context_dict)
