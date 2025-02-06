@@ -14,6 +14,19 @@
         </div>
 
         <div>
+        {% if pages %}
+            <h1>Most Viewed Pages</h1>
+            <ul>
+            {% for page in pages %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a> </li>
+            {% endfor %}
+            </ul>
+        {% else %}
+            <strong>There are no pages present.</strong>
+        {% endif %}
+        </div>
+
+        <div>
         {% if categories %}
             <ul>
             {% for category in categories %}
