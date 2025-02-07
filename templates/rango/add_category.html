@@ -3,7 +3,6 @@
     <head>
         <title>Rango</title>
     </head>
-
     <body>
         <h1>Add a category</h1>
         <div>
@@ -12,6 +11,7 @@
                 {% for hidden in form.hidden_fields %}
                     {{ hidden }}
                 {% endfor %}
+
                 {% for field in form.visible_fields %}
                     {{ field.errors }}
                     {{ field.help_text }}
