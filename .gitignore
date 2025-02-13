@@ -171,5 +171,5 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-rango/tests_chapter7.py
+rango/tests*.py
 rubbish/
