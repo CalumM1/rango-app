@@ -1,4 +1,4 @@
-from django.contrib.auth import authenticate
+from django.contrib.auth import authenticate, login
 from django.shortcuts import render, redirect
 
 from rango.forms import CategoryForm, PageForm, UserForm, UserProfileForm
