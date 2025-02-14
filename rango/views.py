@@ -142,5 +142,5 @@ def user_login(request):
             return HttpResponse('Invalid login details supplied.')
 
     else:
-        return render(request, 'rango/login.html')
+        return render(request, 'rango/user_login.html')
 
